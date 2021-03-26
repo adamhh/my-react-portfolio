@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: "https://github.com/adamhh",
   name: "Adam Hall",
-  role: "n Aspiring Software Engineer",
+  role: "Aspiring Software Engineer",
   linkedinId: "https://www.linkedin.com/in/adam-hall-874218139/",
   roleDescription:
     " I love finding creative solutions for difficult problems.",
@@ -21,13 +21,14 @@ let resumeData = {
     "I am currently finishing my last quarter at University of Washington - Tacoma, where I will graduate with a B.S., Major in Computer Science and Systems, Minor in Mathematics",
   address: "Puyallup, WA.",
   website: "https://github.com/adamhh",
+  email: "adamhh@uw.edu",
   education: [
     {
       UniversityName: "Universtiy of Washington",
-      specialization: "Object-Oriented Programming/Systems Programming/Web Development",
+      specialization: "Bachelor of Science, Major in Computer Science and Systems, Minor in Mathematics.",
       MonthOfPassing: "June",
-      YearOfPassing: "2021",
-      Achievements: "3.7 GPA - Computer Science and Systems - UW-T School of Engineering and Technology",
+      YearOfPassing: "2021 - 3.7 GPA",
+      Achievements: "Vicky L. Carwein and William B. Andrews Endowed Scholarship recipient",
     },
   ],
   skillsDescription: "Software Development",
@@ -44,6 +45,12 @@ let resumeData = {
     {
       skillname: "C",
     },
+    {
+      skillname: "Python",
+    },
+    {
+      skillname: "SQL",
+    }
   ],
   portfolio: [
     {

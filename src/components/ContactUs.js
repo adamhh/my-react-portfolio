@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Axios from 'axios';
 
-export default class ContactUs extends Component {
+class ContactUs extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -70,7 +70,7 @@ export default class ContactUs extends Component {
             <div className="ten columns">
               <p className="lead">
                   <div>
-                      <Hero title={this.props.title} />
+                      {/*<Hero title={this.props.title} />*/}
 
                       <Content>
                           <Form onSubmit={this.handleSubmit}>
@@ -88,7 +88,7 @@ export default class ContactUs extends Component {
 
                               <Form.Group>
                                   <Form.Label htmlFor="message">Message</Form.Label>
-                                  <Form.Control id="message" name="message" as="textarea"rows="3" value={this.state.message} onChange={this.handleChange} />
+                                  <Form.Control id="message" name="message" as="textarea" value={this.state.message} onChange={this.handleChange} />
                               </Form.Group>
 
 
@@ -97,23 +97,23 @@ export default class ContactUs extends Component {
                               </Button>
 
 
-                              {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                              {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
-                          </Form>
+                              {this.state.emailSent === true && <p className="message-success"><strong>Email Sent: Thanks for reaching out!</strong></p>}
+                              {this.state.emailSent === false && <p className="message-warning"><strong>Email Not Sent</strong></p>}
+                          </Form> <h4>Please contact for employment or collaboration opportunities.</h4>
                       </Content>
                   </div>
               </p>
             </div>
           </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linkedin :<a href={resumeData.linkedinId}> Adam Hall</a></h4>
-                <h4><a href="https://docs.google.com/document/d/1WX1RMHd5eZwcAUhBxp4TFEyS9RDg7PUhepvvV2RxEZ4/edit?usp=sharing">Resume</a></h4>
-              </div>
-            </aside>
-          </div>
+          {/*<div className="row">*/}
+          {/*  <aside className="eigth columns footer-widgets">*/}
+          {/*    <div className="widget">*/}
+          {/*      <h4>Resume : <a href="https://docs.google.com/document/d/1WX1RMHd5eZwcAUhBxp4TFEyS9RDg7PUhepvvV2RxEZ4/edit?usp=sharing">Download</a></h4>*/}
+          {/*    </div>*/}
+          {/*  </aside>*/}
+          {/*</div>*/}
         </section>
     );
   }
 }
+export default ContactUs;

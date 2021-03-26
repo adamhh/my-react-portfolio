@@ -6,12 +6,11 @@ import Portfolio from "./components/Portfolio";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
-import Particles from "./components/Particles";
 class App extends Component {
   render() {
+
     return (
       <div className="App">
-          <Particles/>
           <Header resumeData={resumeData} />
           <About resumeData={resumeData} />
           <Resume resumeData={resumeData} />
