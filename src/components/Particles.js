@@ -19,7 +19,7 @@ const ParticlesBackground = () => {
                             "value": "#FFFFFF"
                         },
                         "size": {
-                            "value": 10,
+                            "value": 5,
                             "random": true
                         },
                         "move": {
@@ -39,7 +39,7 @@ const ParticlesBackground = () => {
                         },
                         "modes": {
                             "remove": {
-                                "particles_nb": 5
+                                "particles_nb": 10
                             }
                         }
                     }

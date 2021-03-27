@@ -24,7 +24,7 @@ let resumeData = {
   email: "adamhh@uw.edu",
   education: [
     {
-      UniversityName: "Universtiy of Washington",
+      UniversityName: "University of Washington",
       specialization: "Bachelor of Science, Major in Computer Science and Systems, Minor in Mathematics.",
       MonthOfPassing: "June",
       YearOfPassing: "2021 - 3.7 GPA",
