@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import Modal from 'react-modal';
+import Carousel from "./Carousel";
 
 export default class Portfolio extends Component {
   render() {
@@ -33,6 +34,7 @@ export default class Portfolio extends Component {
       {/*  </div>*/}
       {/*</div>*/}
 
+      <Carousel/>
   </section>
         );
   }

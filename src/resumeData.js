@@ -57,21 +57,19 @@ let resumeData = {
       name: "Dark Despair",
       description: "Web Game",
       imgurl: "images/portfolio/image.png",
+      link: "TODO"
     },
     {
       name: "ComChat",
       description: "Android Application-real time connections, messaging, and weather",
       imgurl: "images/portfolio/night_planner.png",
+      link: "TODO"
     },
     {
       name: "GameDev",
       description: "Vertical Jumping Web Game",
       imgurl: "images/portfolio/Capture.PNG",
-    },
-    {
-      name: "Weather Dashboard",
-      description: "A fun little weather dash alternative",
-      imgurl: "images/portfolio/Capture1.PNG",
+      link: "TODO"
     },
   ],
 };
