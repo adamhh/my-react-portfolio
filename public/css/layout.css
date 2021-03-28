@@ -65,18 +65,19 @@ body { background: #04012e; }
             typing 3.5s steps(40, end),
             blink-caret .75s step-end infinite;
     height: 34px;
-    width: 510px;
+    width: 70%;
+
 }
 
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 73% }
+    to { width: 70% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
+    from, to { border-color: transparent}
     50% { border-color: #FFFF00; }
 
 }
@@ -1100,14 +1101,18 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .details h2 {
+   font-size: 24px;
    margin: 30px 0;
-   padding: 0;
+   padding-right: 5px;
    text-align: center;
+   color: #1f2024 !important;
 }
 
-.details h2 .job-title {
-   font-size: 16px;
+.details h2 .description {
+   font-size: 24px;
+   color:#6E7881 !important;
    line-height: 2;
+   padding-left: 10px;
    color: #333;
    font-weight: 300;
    display: block;

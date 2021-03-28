@@ -1,4 +1,4 @@
-let resumeData = {
+let data = {
   imagebaseurl: "https://github.com/adamhh",
   name: "Adam Hall",
   role: "Aspiring Software Engineer",
@@ -74,4 +74,4 @@ let resumeData = {
   ],
 };
 
-export default resumeData;
+export default data;

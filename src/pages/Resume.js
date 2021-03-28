@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 export default class Resume extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let data = this.props.data;
     return (
       <section id="resume">
         <div className="row education">
@@ -12,8 +12,8 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            {resumeData.education &&
-              resumeData.education.map((item) => {
+            {data.education &&
+              data.education.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
@@ -41,12 +41,12 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{resumeData.skillsDescription}</p>
+            <p>{data.skillsDescription}</p>
 
             <div className="bars">
               <ul className="skills">
-                {resumeData.skills &&
-                  resumeData.skills.map((item) => {
+                {data.skills &&
+                  data.skills.map((item) => {
                     return (
                       <li>
                         <span

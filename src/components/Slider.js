@@ -20,54 +20,53 @@ function ImageSlider() {
         slidesToScroll: 1,
         cssEase: "linear"
     }
-
     return (
         <Slider {...settings}>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/DarkDespairSS.png" />
+                        <img src="images/DarkDespairSS.png" alt={"Screenshot - Dark Despair Game"} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://github.com/adamhh/DarkDespairGame/" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-github-square"/></a></li>
+                        <li><a href="https://adamhh.github.io/DarkDespairGame/" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-external-link-square"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>Dark Despair:<span className="description">HTML5/JS Web Game</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/jumperSS.png" />
+                        <img src="images/jumperSS.png" alt={"Screenshot - Jump Game"} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://github.com/larryj6029/GameDev" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-github-square"/></a></li>
+                        <li><a href="https://larryj6029.github.io/GameDev/" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-external-link-square"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>Game Dev:<span className="description">HTML5/JS Web Game</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/androidSS.png" />
+                        <img src="images/androidSS.png" alt={"Screenshot - ComChat Android App"}/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-github-square"/></a></li>
+                        <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-youtube"/></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>ComChat:<span className="description">Android Application</span></h2>
                     </div>
                 </div>
             </div>
@@ -83,7 +82,7 @@ function ImageSlider() {
             {/*            <li><a href="#"><i className="fa fa-dribbble"></i></a></li>*/}
             {/*        </ul>*/}
             {/*        <div className="details">*/}
-            {/*            <h2>John Doe <span className="job-title">UI Developer</span></h2>*/}
+            {/*            <h2>John Doe <span className="description">UI Developer</span></h2>*/}
             {/*        </div>*/}
             {/*    </div>*/}
             {/*</div>*/}

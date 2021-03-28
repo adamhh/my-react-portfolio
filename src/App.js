@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-import Header from "./components/Header";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
-import ContactUs from "./components/ContactUs";
-import Footer from "./components/Footer";
-import resumeData from "./resumeData";
+import Header from "./pages/Header";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+import Portfolio from "./pages/Portfolio";
+import ContactUs from "./pages/ContactUs";
+import Footer from "./pages/Footer";
+import data from "./data";
 class App extends Component {
   render() {
 
     return (
       <div className="App">
-          <Header resumeData={resumeData} />
-          <About resumeData={resumeData} />
-          <Resume resumeData={resumeData} />
-          <Portfolio resumeData={resumeData} />
-          <ContactUs resumeData={resumeData} />
-          <Footer resumeData={resumeData} />
+          <Header data={data} />
+          <About data={data} />
+          <Resume data={data} />
+          <Portfolio />
+          <ContactUs />
+          <Footer data={data} />
       </div>
     );
   }

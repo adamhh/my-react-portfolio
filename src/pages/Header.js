@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ParticlesBackground from "./Particles";
+import ParticlesBackground from "../components/Particles";
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let data = this.props.data;
     return (
 
       <React.Fragment>
@@ -50,7 +50,7 @@ export default class Header extends Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">Hello, my name is {resumeData.name}.</h1>
+              <h1 className="responsive-headline">Hello, my name is {data.name}.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 <div id={"typewriter-js"}>
                   <p className="line-1 anim-typewriter">I am an aspiring SDE, welcome to my portfolio.</p>
@@ -60,8 +60,8 @@ export default class Header extends Component {
               </h3>
               <hr />
               <ul className="social">
-                {resumeData.socialLinks &&
-                  resumeData.socialLinks.map((item) => {
+                {data.socialLinks &&
+                  data.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank noopener noreferrer">
