@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Hero from "./Hero";
 import Content from "./Content";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";

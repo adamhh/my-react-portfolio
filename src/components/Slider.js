@@ -20,54 +20,47 @@ function ImageSlider() {
         slidesToScroll: 1,
         cssEase: "linear"
     }
-
     return (
         <Slider {...settings}>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/DarkDespairSS.png" />
+                        <img src="images/DarkDespairSS.png" alt={"Screenshot"} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i className="fa fa-github-square"></i></a></li>
+                        <li><a href="#"><i className="fa fa-external-link-square"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h3>John Doe <span className="job-title">Dark Despair</span></h3>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/jumperSS.png" />
+                        <img src="images/jumperSS.png" alt={"Screenshot"} />
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i className="fa fa-github-square"></i></a></li>
+                        <li><a href="#"><i className="fa fa-external-link-square"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h3>John Doe <span className="job-title">UI Developer</span></h3>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/androidSS.png" />
+                        <img src="images/androidSS.png" alt={"Screenshot"}/>
                     </div>
                     <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i className="fa fa-github-square"></i></a></li>
+                        <li><a href="#"><i className="fa fa-youtube"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h3>John Doe <span className="job-title">UI Developer</span></h3>
                     </div>
                 </div>
             </div>
