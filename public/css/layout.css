@@ -15,7 +15,7 @@ body { background: #04012e; }
 
 .a-card {
    margin: 20px;
-   display: inline-block;
+   display: inline-grid;
 }
 
 .a-card-image {
@@ -452,10 +452,12 @@ ul#nav li.current a { color: #1FFCDB; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-/*#portfolio {*/
-/*   background: #ebeeee;*/
-/*   padding-top: 90px;*/
-/*   padding-bottom: 60px;*/
+#portfolio {
+   background: #3d4145;
+   padding-top: 90px;
+   padding-bottom: 60px;
+   height: 700px;
+}
 
 /*}*/
 /*#portfolio h1 {*/
@@ -909,3 +911,4 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #FFFFFF; }
 
+/* Slider */

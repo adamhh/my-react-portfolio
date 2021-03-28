@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 import Modal from 'react-modal';
 import Carousel from "./Carousel";
+import Slider from "./Slider";
 
 export default class Portfolio extends Component {
   render() {

@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import dark from '../images/DarkDespairSS.png';
 import jump from '../images/jumperSS.png';
 import android from '../images/androidSS.png';
+import Slider from "./Slider";
 
 
 
@@ -77,6 +78,7 @@ class Carousel extends React.Component {
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>
+                {/*<Slider/>*/}
             </Container>
         );
     }
