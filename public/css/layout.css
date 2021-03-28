@@ -936,18 +936,18 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-bottom: 24px;
 }
 
-.slider {
-   margin-right: 50px;
-   margin-left: 50px;
-}
+/*.slider {*/
+/*   margin-right: 50px;*/
+/*   margin-left: 50px;*/
+/*}*/
 
-.slider_title {
-   font-size: 5vw;
-   color: tomato;
-   text-transform: uppercase;
-   text-align: center;
-   margin-bottom: 2vw;
-}
+/*.slider_title {*/
+/*   font-size: 5vw;*/
+/*   color: tomato;*/
+/*   text-transform: uppercase;*/
+/*   text-align: center;*/
+/*   margin-bottom: 2vw;*/
+/*}*/
 
 .card-wrapper {
    position: relative;
@@ -1116,18 +1116,18 @@ footer .social-links li:first-child { margin-left: 0; }
    bottom: 0;
 }
 
-.carousel .slick-dots {
+.slick-dots {
    bottom: -2.5vw;
 }
 
-.carousel .slick-dots li button {
+.slick-dots li button {
    width: 20px;
    height: 20px;
    border: 1px solid #fff;
    border-radius: 20px;
 }
 
-.carousel .slick-dots li button:before {
+.slick-dots li button:before {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -1137,7 +1137,7 @@ footer .social-links li:first-child { margin-left: 0; }
    content: "";
    text-align: center;
    opacity: .5;
-   color: #000;
+   color: #fff;
    background-color: #fff;
    -webkit-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
@@ -1145,36 +1145,73 @@ footer .social-links li:first-child { margin-left: 0; }
    transition: all .3s ease-in-out;
 }
 
-.carousel .slick-dots li.slick-active button, .carousel .slick-dots li:hover button {
+.slick-dots li.slick-active button, .slick-dots li:hover button {
    border-color: tomato;
 }
 
-.carousel .slick-dots li.slick-active button:before, .carousel .slick-dots li:hover button:before {
-   background-color: tomato;
+.slick-dots li.slick-active button:before, .slick-dots li:hover button:before {
+   background-color: #FFFF00;
    opacity: 1;
 }
 
-.carousel .slick-prev, .carousel .slick-next {
-   width: 50px;
-   height: 50px;
-   background-color: #fff;
+/*.slick-prev, .slick-next {*/
+/*   width: 50px;*/
+/*   height: 50px;*/
+/*   background-color: #fff;*/
+/*}*/
+
+/*.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {*/
+/*   color: #fff;*/
+/*   outline: none;*/
+/*   background: #fff;*/
+/*}*/
+
+/*.slick-prev:before, .slick-next:before {*/
+/*   color: #000;*/
+/*   font-family: "Raleway", sans-serif;*/
+/*}*/
+
+/*.slick-next {*/
+/*   right: -55px;*/
+/*}*/
+
+/*.slick-prev {*/
+/*   left: -55px;*/
+/*}*/
+
+/*.slick-prev::before,*/
+/*.slick-next::before {*/
+/*   color: #FFFF00;*/
+/*   font-family: "opensans-bold", sans-serif;*/
+/*   font-size: 2.5rem;*/
+/*}*/
+
+/*.slick-prev,*/
+/*.slick-next {*/
+/*   width: 2.5rem;*/
+/*   height: 2.5rem;*/
+/*   z-index: 2;*/
+/*}*/
+
+/*.slick-list {*/
+/*   width: 100%;*/
+/*   margin: 0 auto;*/
+/*}*/
+
+/*.slick-prev {*/
+/*   left: 0;*/
+/*}*/
+
+/*.slick-next {*/
+/*   right: 0;*/
+/*}*/
+
+.slick-prev {
+   left: 3% !important;
+   z-index: 1;
+}
+.slick-next {
+   right: 3% !important;
+   z-index: 1;
 }
 
-.carousel .slick-prev:hover, .carousel .slick-prev:focus, .carousel .slick-next:hover, .carousel .slick-next:focus {
-   color: #fff;
-   outline: none;
-   background: #fff;
-}
-
-.carousel .slick-prev:before, .carousel .slick-next:before {
-   color: #000;
-   font-family: "Raleway", sans-serif;
-}
-
-.carousel .slick-next {
-   right: -55px;
-}
-
-.carousel .slick-prev {
-   left: -55px;
-}
