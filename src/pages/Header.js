@@ -16,7 +16,7 @@ export default class Header extends Component {
                 <div className="banner-text">
                   <h1 className="responsive-headline">Hello, my name is {data.name}.</h1>
                   <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                    <div id={"typewriter-js"}>
+                    <div>
                       <p>I am an aspiring SDE, welcome to my portfolio.</p>
                     </div>
                   </h3>
