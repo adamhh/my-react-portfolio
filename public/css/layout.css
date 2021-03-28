@@ -965,6 +965,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .card {
    width: 100%;
    height: 450px;
+   max-width: 600px;
    border-radius: 16px;
    overflow: hidden;
    cursor: pointer;
