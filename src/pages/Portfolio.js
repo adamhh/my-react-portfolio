@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import ImageSlider from "./Slider";
+import React, { Component } from 'react';
+import ImageSlider from "../components/Slider";
 
 export default class Portfolio extends Component {
   render() {

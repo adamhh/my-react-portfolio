@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Content from "./Content";
+import Content from "../components/Content";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Axios from 'axios';
@@ -62,7 +62,6 @@ class ContactUs extends Component {
 
     }
   render() {
-    let resumeData = this.props.resumeData;
     return (
         <section id="contact">
           <div className="row section-head">
