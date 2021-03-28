@@ -2,12 +2,14 @@ import React, { Component, useState } from 'react';
 import Modal from 'react-modal';
 import Carousel from "./Carousel";
 import Slider from "./Slider";
+import ImageSlider from "./Slider";
 
 export default class Portfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
+        <h2>Check out some of my favorite projects.</h2>
       {/*<div className="row">*/}
       {/*  <div className="twelve columns collapsed">*/}
       {/*    <h1>Check Out Some of My Works.</h1>*/}
@@ -34,8 +36,8 @@ export default class Portfolio extends Component {
       {/*    </div>*/}
       {/*  </div>*/}
       {/*</div>*/}
-
-      <Carousel/>
+      <ImageSlider/>
+      {/*<Carousel/>*/}
   </section>
         );
   }

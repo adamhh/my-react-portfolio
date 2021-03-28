@@ -2,23 +2,31 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {isMobile} from 'react-device-detect';
 
 
 function ImageSlider() {
+    let slides = 3;
+    if (isMobile) {
+        slides = 1;
+    }
     let settings = {
         dots: true,
+        arrows: true,
         infinite: true,
+        centerMode: false,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: slides,
         slidesToScroll: 1,
         cssEase: "linear"
     }
+
     return (
         <Slider {...settings}>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/8.jpg" />
+                        <img src="images/DarkDespairSS.png" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -34,7 +42,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/15.jpg" />
+                        <img src="images/jumperSS.png" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -50,7 +58,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/7.jpg" />
+                        <img src="images/androidSS.png" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -63,29 +71,25 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image">
-                        <img src="images/16.jpg" />
-                    </div>
-                    <ul className="social-icons">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                    </ul>
-                    <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
-                    </div>
-                </div>
-            </div>
+            {/*<div className="card-wrapper">*/}
+            {/*    <div className="card">*/}
+            {/*        <div className="card-image">*/}
+            {/*            <img src="images/16.jpg" />*/}
+            {/*        </div>*/}
+            {/*        <ul className="social-icons">*/}
+            {/*            <li><a href="#"><i className="fa fa-facebook"></i></a></li>*/}
+            {/*            <li><a href="#"><i className="fa fa-instagram"></i></a></li>*/}
+            {/*            <li><a href="#"><i className="fa fa-twitter"></i></a></li>*/}
+            {/*            <li><a href="#"><i className="fa fa-dribbble"></i></a></li>*/}
+            {/*        </ul>*/}
+            {/*        <div className="details">*/}
+            {/*            <h2>John Doe <span className="job-title">UI Developer</span></h2>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </Slider>
     )
 }
 
 export default ImageSlider
 
-//... is called spread operator
-
-//thanks for watching
-//pleae subscribe my channel
