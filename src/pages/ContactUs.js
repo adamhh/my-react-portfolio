@@ -46,7 +46,7 @@ class ContactUs extends Component {
             this.setState({
                 disabled: true
             });
-            Axios.post('https://react-portfolio-adamhh-backend.herokuapp.com/api/', this.state)
+            Axios.post('https://react-portfolio-adamhh-backend.herokuapp.com/api/email', this.state)
                 .then(res => {
                     if(res.data.success) {
                         this.setState({
