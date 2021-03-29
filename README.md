@@ -7,7 +7,7 @@
 <h3> Screenshots can be seen below.</h3>
 
 <h4> Desktop: </h4>
-![ss1](https://user-images.githubusercontent.com/47022779/112788333-85491300-900f-11eb-9312-4e424d743ed9.PNG)
+<img>![ss1](https://user-images.githubusercontent.com/47022779/112788333-85491300-900f-11eb-9312-4e424d743ed9.PNG)</img>
 <p> </p>
 ![ss2](https://user-images.githubusercontent.com/47022779/112788585-0f917700-9010-11eb-9c20-0b096d823775.PNG)
 <p> </p>
