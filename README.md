@@ -14,6 +14,7 @@ My portfolio is deployed via heroku and can be seen at www.adamhh.com
 * React
 * Node.js
 * Javascript
+* CSS
 
 ## **Visuals**
 ![screenshot](public/images/portfolio/screenshot.PNG)
