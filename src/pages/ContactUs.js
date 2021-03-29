@@ -27,38 +27,50 @@ class ContactUs extends Component {
         })
     }
 
-
+    checkConditions() {
+        let boo = true;
+        if (this.state.name === "") {
+            boo = false;
+        } else if (this.state.message === "") {
+            boo = false;
+        } else if (this.state.email === "") {
+            boo = false;
+        } else if (!this.state.email.includes("@")) {
+            boo = false;
+        }
+        return boo;
+    }
     handleSubmit = (event) => {
         event.preventDefault();
+        if (this.checkConditions()) {
+            this.setState({
+                disabled: true
+            });
+            Axios.post('https://react-portfolio-adamhh-backend.herokuapp.com/api/', this.state)
+                .then(res => {
+                    if(res.data.success) {
+                        this.setState({
+                            disabled: true,
+                            emailSent: true
+                        });
+                    } else {
+                        this.setState({
+                            disabled: false,
+                            emailSent: false
+                        });
+                    }
+                })
+                .catch(err => {
+                    console.log(err);
 
-        console.log(event.target);
-
-        this.setState({
-            disabled: true
-        });
-
-        Axios.post('https://react-portfolio-adamhh-backend.herokuapp.com/api/email', this.state)
-            .then(res => {
-                if(res.data.success) {
-                    this.setState({
-                        disabled: true,
-                        emailSent: true
-                    });
-                } else {
                     this.setState({
                         disabled: false,
                         emailSent: false
                     });
-                }
-            })
-            .catch(err => {
-                console.log(err);
+                })
 
-                this.setState({
-                    disabled: false,
-                    emailSent: false
-                });
-            })
+        }
+
 
     }
   render() {
@@ -68,8 +80,6 @@ class ContactUs extends Component {
             <div className="ten columns">
               <p className="lead">
                   <div>
-                      {/*<Hero title={this.props.title} />*/}
-
                       <Content>
                           <Form onSubmit={this.handleSubmit}>
                               <Form.Group>
