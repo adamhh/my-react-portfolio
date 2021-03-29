@@ -246,6 +246,7 @@ ul#nav li.current a { color: #1FFCDB; }
 
 #about {
    background: #2B2B2B;
+   /*background: #3d4145;*/
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -454,7 +455,7 @@ ul#nav li.current a { color: #1FFCDB; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #3d4145;
+   background: #A8A8A8;
    padding-top: 90px;
    padding-bottom: 60px;
    height: 700px;
@@ -714,7 +715,8 @@ ul#nav li.current a { color: #1FFCDB; }
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #2B2B2B;
+   /*background: #3d4145;*/
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -838,7 +840,7 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
-   background: #2F2D2E;
+   background: #04012e;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -933,7 +935,7 @@ footer .social-links li:first-child { margin-left: 0; }
    display: flex;
    justify-content: center;
    align-items: center;
-   color: #FFFFFF;
+   color: #2B2B2B;
    margin-bottom: 24px;
 }
 
