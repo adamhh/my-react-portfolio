@@ -40,4 +40,4 @@ Copyright (c) 2021, Adam Hall
 * Javascript
 
 ## **Visuals**
-![screenshot](public/images/screenshot.png)
+![screenshot](public/images/portfolio/screenshot.png)
