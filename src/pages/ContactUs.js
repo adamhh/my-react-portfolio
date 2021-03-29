@@ -103,13 +103,6 @@ class ContactUs extends Component {
               </p>
             </div>
           </div>
-          {/*<div className="row">*/}
-          {/*  <aside className="eigth columns footer-widgets">*/}
-          {/*    <div className="widget">*/}
-          {/*      <h4>Resume : <a href="https://docs.google.com/document/d/1WX1RMHd5eZwcAUhBxp4TFEyS9RDg7PUhepvvV2RxEZ4/edit?usp=sharing">Download</a></h4>*/}
-          {/*    </div>*/}
-          {/*  </aside>*/}
-          {/*</div>*/}
         </section>
     );
   }
