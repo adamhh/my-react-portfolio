@@ -6,10 +6,38 @@
 <h3> Technologies used: JS, React, Bootstrap, CSS, NodeJS, Postmark </h3>
 <h3> Screenshots can be seen below.</h3>
 
-<h4> Desktop: </h4>
-![ss1](https://user-images.githubusercontent.com/47022779/112788333-85491300-900f-11eb-9312-4e424d743ed9.PNG)
-<p> </p>
-![ss2](https://user-images.githubusercontent.com/47022779/112788585-0f917700-9010-11eb-9c20-0b096d823775.PNG)
-<p> </p>
-![ss3](https://user-images.githubusercontent.com/47022779/112788718-541d1280-9010-11eb-81a7-f99ea17edcda.PNG)
-<p> </p>
+
+# My personal React portfolio.
+
+
+![GitHub top language](https://img.shields.io/github/languages/top/kbnewlon/project3) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-MIT_License-yellowgreen)
+
+
+## Description
+This is a portfolio that I created using React to display some of my projects for potential employment and collaboration opportunities.
+
+
+## **Table of Contents**
+
+1. [Usage](#usage)
+2. [License](#license)
+4. [Technologies](#technologies)
+5. [Visuals](#visuals)
+6. [Demos](#demos)
+7. [Links](#links)
+
+
+## **Usage**
+My portfolio is deployed via heroku and can be seen at www.adamhh.com
+
+
+## **License**
+Copyright (c) 2021, Adam Hall
+
+## **Technologies**
+* React
+* Node.js
+* Javascript
+
+## **Visuals**
+![screenshot](public/images/screenshot.png)
