@@ -13,5 +13,3 @@
 <p> </p>
 ![ss3](https://user-images.githubusercontent.com/47022779/112788718-541d1280-9010-11eb-81a7-f99ea17edcda.PNG)
 <p> </p>
-
-<h4 Mobile: </h4>
