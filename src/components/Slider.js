@@ -25,7 +25,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/DarkDespairSS.png" alt={"Screenshot - Dark Despair Game"} />
+                        <img src="images/DarkDespairSS.jpg" alt={"Screenshot - Dark Despair Game"} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="https://github.com/adamhh/DarkDespairGame/" target={"_blank"} rel={"noopener noreferrer"}>
@@ -41,7 +41,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/jumperSS.png" alt={"Screenshot - Jump Game"} />
+                        <img src="images/jumperSS.jpg" alt={"Screenshot - Jump Game"} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="https://github.com/larryj6029/GameDev" target={"_blank"} rel={"noopener noreferrer"}>
@@ -57,7 +57,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/androidSS.png" alt={"Screenshot - ComChat Android App"}/>
+                        <img src="images/androidSS.jpg" alt={"Screenshot - ComChat Android App"}/>
                     </div>
                     <ul className="social-icons">
                         <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>

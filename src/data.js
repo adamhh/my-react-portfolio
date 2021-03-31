@@ -18,7 +18,7 @@ let data = {
     },
   ],
   aboutme:
-    "I am currently finishing my last quarter at University of Washington - Tacoma, where I will graduate with a B.S., Major in Computer Science and Systems, Minor in Mathematics",
+    "I am currently finishing my last quarter at University of Washington - Tacoma, where I will graduate with a B.S., Major in Computer Science and Systems.",
   address: "Puyallup, WA.",
   website: "https://github.com/adamhh",
   email: "adamhh@uw.edu",
