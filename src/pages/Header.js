@@ -11,7 +11,7 @@ export default class Header extends Component {
             <header id="home">
               <div className="row banner">
                 <div className="banner-text">
-                  <h1 className="responsive-headline">Hello, my name is {data.name}.</h1>
+                  <h1 className="responsive-headline">Hello, my name is Adam Hall</h1>
                   <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                     <div>
                       <p>I am an aspiring SDE, welcome to my portfolio.</p>
@@ -52,10 +52,13 @@ export default class Header extends Component {
             <header id="home">
               <div className="row banner">
                 <div className="banner-text">
-                  <h1 className="responsive-headline">Hello, my name is {data.name}.</h1>
+                  <h1 className="responsive-headline">Hello, my name is Adam Hall.</h1>
                   <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                    <div id={"typewriter-js"}>
-                      <p className="line-1 anim-typewriter">I am an aspiring SDE, welcome to my portfolio.</p>
+                    {/*<div id={"typewriter-js"}>*/}
+                    {/*  <p className="line-1 anim-typewriter">I am an aspiring SDE, welcome to my portfolio.</p>*/}
+                    {/*</div>*/}
+                    <div>
+                      <p>I am an aspiring SDE, welcome to my portfolio.</p>
                     </div>
 
                     {/*I am an {resumeData.role}.{resumeData.roleDescription}*/}
