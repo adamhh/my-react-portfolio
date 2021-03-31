@@ -8,9 +8,6 @@ export default class Header extends Component {
     if (isMobile) {
       return (
           <React.Fragment>
-            <div id={"particles-js"}>
-              <ParticlesBackground/>
-            </div>
             <header id="home">
               <div className="row banner">
                 <div className="banner-text">
