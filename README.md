@@ -8,7 +8,7 @@
 This is a portfolio that I created using React to display some of my projects for potential employment and collaboration opportunities.
 
 ## **Usage**
-My portfolio is deployed via heroku and can be seen at adamhh.com
+My portfolio is deployed via heroku and can be seen at https://www.adamhh.com
 
 ## **Technologies**
 * React
