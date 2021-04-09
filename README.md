@@ -1,8 +1,8 @@
 # My personal React portfolio. 
 
 
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-MIT_License-yellowgreen)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat) ![Libraries.io dependency status for GitHub repo](https://img.shields.io/badge/license-MIT_License-yellowgreen)
+
 
 
 ## Description
