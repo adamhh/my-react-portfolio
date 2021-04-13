@@ -7,6 +7,14 @@ import Axios from 'axios';
 class ContactUs extends Component {
     constructor(props) {
         super(props);
+        Axios.get('https://react-portfolio-adamhh-backend.herokuapp.com/api/')
+            .then(r => {
+                if (r.data.success) {
+                    console.log("API awake");
+                } else {
+                    console.log("API not awake");
+                }
+            })
         this.state = {
             name: '',
             email: '',

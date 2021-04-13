@@ -18,7 +18,8 @@ let data = {
     },
   ],
   aboutme:
-    "I am currently finishing my last quarter at University of Washington - Tacoma, where I will graduate with a B.S., Major in Computer Science and Systems.",
+    "I enjoy learning new concepts, working on inspiring projects, and seeing what new adventures Washington has to offer." +
+      "  Thanks for the visit!",
   address: "Puyallup, WA.",
   website: "https://github.com/adamhh",
   email: "adamhh@uw.edu",
@@ -26,7 +27,7 @@ let data = {
     {
       UniversityName: "University of Washington",
       specialization: "Bachelor of Science, Major in Computer Science and Systems, Minor in Mathematics.",
-      MonthOfPassing: "June",
+      MonthOfPassing: "Expected June",
       YearOfPassing: "2021 - 3.7 GPA",
       Achievements: "Vicky L. Carwein and William B. Andrews Endowed Scholarship recipient",
     },
