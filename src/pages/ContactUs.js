@@ -70,7 +70,6 @@ class ContactUs extends Component {
                 })
                 .catch(err => {
                     console.log(err);
-
                     this.setState({
                         disabled: false,
                         emailSent: false
@@ -78,8 +77,6 @@ class ContactUs extends Component {
                 })
 
         }
-
-
     }
   render() {
     return (

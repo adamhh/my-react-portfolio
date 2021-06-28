@@ -1,7 +1,7 @@
 let data = {
   imagebaseurl: "https://github.com/adamhh",
   name: "Adam Hall",
-  role: "Aspiring Software Engineer",
+  role: "Software Developer",
   linkedinId: "https://www.linkedin.com/in/adam-hall-874218139/",
   roleDescription:
     " I love finding creative solutions for difficult problems.",
@@ -27,7 +27,7 @@ let data = {
     {
       UniversityName: "University of Washington",
       specialization: "Bachelor of Science, Major in Computer Science and Systems, Minor in Mathematics.",
-      MonthOfPassing: "Expected June",
+      MonthOfPassing: "June",
       YearOfPassing: "2021 - 3.7 GPA",
       Achievements: "Vicky L. Carwein and William B. Andrews Endowed Scholarship recipient",
     },
