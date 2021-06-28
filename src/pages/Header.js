@@ -14,7 +14,7 @@ export default class Header extends Component {
                   <h1 className="responsive-headline">Hello, my name is Adam Hall</h1>
                   <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                     <div>
-                      <p>I am an aspiring SDE, welcome to my portfolio.</p>
+                      <p>I am a Software Developer, welcome to my portfolio.</p>
                     </div>
                   </h3>
                   <hr />
@@ -58,7 +58,7 @@ export default class Header extends Component {
                     {/*  <p className="line-1 anim-typewriter">I am an aspiring SDE, welcome to my portfolio.</p>*/}
                     {/*</div>*/}
                     <div>
-                      <p>I am an aspiring SDE, welcome to my portfolio.</p>
+                      <p>I am a Software Developer, welcome to my portfolio.</p>
                     </div>
 
                     {/*I am an {resumeData.role}.{resumeData.roleDescription}*/}
