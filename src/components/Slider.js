@@ -62,8 +62,6 @@ function ImageSlider() {
                     <ul className="social-icons">
                         <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
                             <i className="fa fa-github-square"/></a></li>
-                        <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
-                            <i className="fa fa-youtube"/></a></li>
                     </ul>
                     <div className="details">
                         <h2>ComChat:<span className="description">Android Application</span></h2>

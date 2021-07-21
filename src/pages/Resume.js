@@ -22,10 +22,10 @@ export default class Resume extends Component {
                         {item.specialization}
                         {" "}
                         <em className="date">
-                          {item.MonthOfPassing} {item.YearOfPassing}
+                          {" "}{item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p><strong>{item.Achievements}</strong></p>
+                      <p className="achievements">{item.Achievements}></p>
                     </div>
                   </div>
                 );
@@ -36,29 +36,26 @@ export default class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>Experience</span>
             </h1>
           </div>
-
           <div className="nine columns main-col">
-            <p>{data.skillsDescription}</p>
-
-            <div className="bars">
-              <ul className="skills">
-                {data.skills &&
-                  data.skills.map((item) => {
-                    return (
-                      <li>
-                        <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
-                        />
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
-              </ul>
+          <h3 className="resume-heading1">Tako Agency</h3>
+            <div className="title-date-wrap">
+              <p className="tdw-title"><strong>Full Stack Developer</strong></p>
+              <p><i>April 2021 - Current</i></p>
             </div>
+            <p className="resume-details">My work at Tako Agency consists of React native IOS development on the Sparetoolz application and client focused Shopify store front end development.</p>
+
+            <h3 className="resume-heading2">My Own Experience</h3>
+            <div className="title-date-wrap">
+              <p className="tdw-title"><strong>CS Student</strong></p>
+              <p><i>2016 - Current</i></p>
+            </div>
+            <p className="resume-details">For the past 5 years, since starting school, I have honed my skills as a developer, coding primarily in Java with a concentration on data structures and alogirithms.</p>
+
           </div>
+          
         </div>
       </section>
     );
