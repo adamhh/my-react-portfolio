@@ -18,15 +18,14 @@ let data = {
     },
   ],
   aboutme:
-    "I enjoy learning new concepts, working on inspiring projects, and seeing what new adventures Washington has to offer." +
-      "  Thanks for the visit!",
+    "I love developing software and am driven my projects that allow me to be creative.  My focus is on reuseable and clean code. Thanks for stopping by!",
   address: "Puyallup, WA.",
   website: "https://github.com/adamhh",
   email: "adamhh@uw.edu",
   education: [
     {
       UniversityName: "University of Washington",
-      specialization: "Bachelor of Science, Major in Computer Science and Systems, Minor in Mathematics.",
+      specialization: "Bachelor of Science, Major in Computer Science and Systems.",
       MonthOfPassing: "June",
       YearOfPassing: "2021 - 3.7 GPA",
       Achievements: "Vicky L. Carwein and William B. Andrews Endowed Scholarship recipient",

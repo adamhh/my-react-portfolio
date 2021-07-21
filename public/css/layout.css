@@ -262,7 +262,7 @@ ul#nav li.current a { color: #1FFCDB; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #c2c2c2;
 }
 #about .profile-pic {
    position: relative;
@@ -327,8 +327,8 @@ ul#nav li.current a { color: #1FFCDB; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
-   margin-bottom: 18px;
+   color: #695c39;
+   margin-bottom: 9px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -340,6 +340,36 @@ ul#nav li.current a { color: #1FFCDB; }
    margin-top: 6px;
 }
 
+.title-date-wrap {
+   display: flex;
+   height: auto;
+}
+
+.title-date-wrap p {
+   color: #695c39
+}
+
+.tdw-title {
+   margin-right: 20px;
+}
+
+.resume-heading2 {
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+
+.resume-heading1 {
+   margin-bottom: 10px;
+}
+
+
+.resume-details {
+   color: #464646;
+}
+
+.achievements {
+   color: #464646;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
