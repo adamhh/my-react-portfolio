@@ -25,6 +25,17 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
+                        <a href={"https://www.bellaprivata.com"} rel={"noopener noreferrer"} target={"_blank"}></a>
+                        <img src="images/bellaSS.jpg" alt={"Screenshot - Website"}/>
+                    </div>
+                    <div className="details">
+                        <h2>Bella Privata:<span className="description">Business Website</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="card">
+                    <div className="card-image">
                         <img src="images/DarkDespairSS.jpg" alt={"Screenshot - Dark Despair Game"} />
                     </div>
                     <ul className="social-icons">

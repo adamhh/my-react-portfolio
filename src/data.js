@@ -18,7 +18,8 @@ let data = {
     },
   ],
   aboutme:
-    "I love developing software and am driven my projects that allow me to be creative.  My focus is on reuseable and clean code. Thanks for stopping by!",
+    "I am a software developer that loves getting outside and enjoying nature.  Usually this means hiking, snowboarding, or finding some new adventure." +
+    "  For work, I love being challenged and being a part of a motivated team.",
   address: "Puyallup, WA.",
   website: "https://github.com/adamhh",
   email: "adamhh@uw.edu",

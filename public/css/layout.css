@@ -89,23 +89,13 @@ body { background: #04012e; }
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    width: 100%;
-   /*background: #FFFFFF url(../images/IMG_0993.JPG) no-repeat top center;*/
-   /*background-size: cover !important;*/
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+
 }
 
-/* vertically center banner section */
-header:before {
-   content: '';
-   display: inline-block;
-   vertical-align: middle;
-   height: 100%;
-}
 header .banner {
    display: inline-block;
    vertical-align: middle;
@@ -851,6 +841,8 @@ ul#nav li.current a { color: #1FFCDB; }
 #contact form input {
     background: #6E7881;
 }
+
+
 
 #image-loader {
    display: none;

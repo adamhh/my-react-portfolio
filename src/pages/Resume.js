@@ -25,7 +25,7 @@ export default class Resume extends Component {
                           {" "}{item.MonthOfPassing} {item.YearOfPassing}
                         </em>
                       </p>
-                      <p className="achievements">{item.Achievements}></p>
+                      <p className="achievements">{item.Achievements}</p>
                     </div>
                   </div>
                 );
