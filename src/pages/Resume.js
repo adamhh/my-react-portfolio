@@ -45,14 +45,21 @@ export default class Resume extends Component {
               <p className="tdw-title"><strong>Full Stack Developer</strong></p>
               <p><i>April 2021 - Current</i></p>
             </div>
-            <p className="resume-details">My work at Tako Agency consists of React native IOS development on the Sparetoolz application and client focused Shopify store front end development.</p>
+            <p className="resume-details">
+              I primarily work as a mobile applications developer with Tako Agency; this includes developing in Typescript with React Native, as well as the development
+              and maintenance of GCP cloud hosted functions that serve as the back end. I also periodically develop Shopify storefronts and
+              applications using traditional web technolgoies, when the need arises.
+            </p>
 
             <h3 className="resume-heading2">My Own Experience</h3>
             <div className="title-date-wrap">
               <p className="tdw-title"><strong>CS Student</strong></p>
               <p><i>2016 - Current</i></p>
             </div>
-            <p className="resume-details">For the past 5 years, since starting school, I have honed my skills as a developer, coding primarily in Java with a concentration on data structures and alogirithms.</p>
+            <p className="resume-details">
+              For the 5 years I spent working towards my CS degree I honed my skills as a developer, 
+              programming primarily in Java with a concentration in data structures and alogirithms.
+              </p>
 
           </div>
           

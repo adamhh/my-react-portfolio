@@ -884,7 +884,9 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
-   background: #04012e;
+   opacity: 0.8;
+   background-size: 20px 20px;
+   background-image:  repeating-linear-gradient(0deg, rgb(59, 59, 59), #04012D 1px, #04012D 1px, #04012D);
 }
 
 footer a, footer a:visited { color: #525252; }

@@ -29,10 +29,9 @@ export default function About(props) {
           <h2>Contact Details</h2>
         </div>
         <div className="about-details">
-          <p>{data.name}</p>
+          <p>Adam Hall</p>
           <p>{data.address}</p>
           <p>{data.email}</p>
-          <p>{data.website}</p>
         </div>
       </section>
     );
