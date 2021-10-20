@@ -25,6 +25,20 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
+                        <img src="images/androidSS.jpg" alt={"Screenshot - ComChat Android App"}/>
+                    </div>
+                    <ul className="social-icons">
+                        <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
+                            <i className="fa fa-github-square"/></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>ComChat:<span className="description">Android Application</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="card-wrapper">
+                <div className="card">
+                    <div className="card-image">
                         <a href={"https://www.bellaprivata.com"} rel={"noopener noreferrer"} target={"_blank"}></a>
                         <img src="images/bellaSS.jpg" alt={"Screenshot - Website"}/>
                     </div>
@@ -65,20 +79,7 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card">
-                    <div className="card-image">
-                        <img src="images/androidSS.jpg" alt={"Screenshot - ComChat Android App"}/>
-                    </div>
-                    <ul className="social-icons">
-                        <li><a href="https://github.com/adamhh/450Group8" target={"_blank"} rel={"noopener noreferrer"}>
-                            <i className="fa fa-github-square"/></a></li>
-                    </ul>
-                    <div className="details">
-                        <h2>ComChat:<span className="description">Android Application</span></h2>
-                    </div>
-                </div>
-            </div>
+
             {/*<div className="card-wrapper">*/}
             {/*    <div className="card">*/}
             {/*        <div className="card-image">*/}

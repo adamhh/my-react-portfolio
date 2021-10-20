@@ -155,7 +155,7 @@
   }
   
   .social-icons li a:hover .fa {
-    color: #fff;
+    color: #FFFF00;
   }
   
   .social-icons li a .fa {
@@ -166,7 +166,7 @@
   .social-icons li a .fa:hover {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
-    color: #fff;
+    color: #FFFF00;
   }
   
   .card:hover li:nth-child(1) a {

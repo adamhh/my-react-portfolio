@@ -81,46 +81,30 @@ class ContactUs extends Component {
   render() {
     return (
         <section id="contact">
-          <div className="row section-head">
-            <div className="ten columns">
-              <p className="lead">
-                  <div>
-                      <Content>
-                          <Form onSubmit={this.handleSubmit}>
-                              <Form.Group>
-                                  <Form.Label htmlFor="full-name">Full Name</Form.Label>
-                                  <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
-                              </Form.Group>
+              <div className="contact-wrap">
+                <Content>
+                    <Form onSubmit={this.handleSubmit}>
+                        <Form.Group>
+                            <Form.Control id="full-name" placeholder="Name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
+                        </Form.Group>
+                        <Form.Group>
+                            <Form.Control placeholder="Email" id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
+                        </Form.Group>
+                        <Form.Group>
+                            <Form.Control id="message" placeholder="Message" name="message" as="textarea" value={this.state.message} onChange={this.handleChange} />
+                        </Form.Group>
 
-
-                              <Form.Group>
-                                  <Form.Label htmlFor="email">Email</Form.Label>
-                                  <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
-                              </Form.Group>
-
-
-                              <Form.Group>
-                                  <Form.Label htmlFor="message">Message</Form.Label>
-                                  <Form.Control id="message" name="message" as="textarea" value={this.state.message} onChange={this.handleChange} />
-                              </Form.Group>
-
-                                <div className="quick-fix">
-                                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
-                                    Send
-                                    </Button>
-                                    <h4>Please contact for employment or collaboration opportunities.</h4>
-                                </div>
-
-
-
-                              {this.state.emailSent === true && <p className="message-success"><strong>Email Sent: Thanks for reaching out!</strong></p>}
-                              {this.state.emailSent === false && <p className="message-warning"><strong>Email Not Sent</strong></p>}
-                          </Form> 
-                      </Content>
-                  </div>
-              </p>
-            </div>
-          </div>
+                        <div className="quick-fix">
+                            <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                            Send
+                            </Button>
+                            <h4>Please contact for employment or collaboration opportunities.</h4>
+                        </div>
+                        {this.state.emailSent === true && <p className="message-success"><strong>Email Sent: Thanks for reaching out!</strong></p>}
+                        {this.state.emailSent === false && <p className="message-warning"><strong>Email Not Sent</strong></p>}
+                    </Form> 
+                </Content>
+              </div>
         </section>
     );
   }
