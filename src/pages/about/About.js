@@ -22,8 +22,7 @@ export default function About(props) {
           <p>
             When developing, I love taking on new and exciting projects.  The most rewarding
             aspect of this career is that every day presents a new learning opportunity.
-            In a prospective employer, I value companies that prioritize team morale and an overall
-            positive message.
+            In a prospective employer, I value companies that prioritize team morale and positivity.
           </p>
         </div>
         <div className="about-header">
