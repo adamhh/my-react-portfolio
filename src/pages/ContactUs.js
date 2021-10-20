@@ -104,15 +104,18 @@ class ContactUs extends Component {
                                   <Form.Control id="message" name="message" as="textarea" value={this.state.message} onChange={this.handleChange} />
                               </Form.Group>
 
+                                <div className="quick-fix">
+                                    <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                                    Send
+                                    </Button>
+                                    <h4>Please contact for employment or collaboration opportunities.</h4>
+                                </div>
 
-                              <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
-                                  Send
-                              </Button>
 
 
                               {this.state.emailSent === true && <p className="message-success"><strong>Email Sent: Thanks for reaching out!</strong></p>}
                               {this.state.emailSent === false && <p className="message-warning"><strong>Email Not Sent</strong></p>}
-                          </Form> <h4>Please contact for employment or collaboration opportunities.</h4>
+                          </Form> 
                       </Content>
                   </div>
               </p>

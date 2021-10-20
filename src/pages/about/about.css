@@ -1,0 +1,44 @@
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #2B2B2B;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.about-header {
+    margin-top: 20px;
+}
+
+
+.about-header h2 {
+    margin: 0 auto;
+    width: max-content;
+}
+
+.about-content {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.about-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.about-details p {
+    margin: 0 15px;
+}
+
+
+@media (max-width: 799px) {
+    .about-content {
+        width: 90%;
+    } 
+
+    .about-details {
+        flex-direction: column;
+    }
+}
