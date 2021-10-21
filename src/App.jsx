@@ -1,6 +1,6 @@
 import React from "react";
 import Intro from "./pages/intro/Intro";
-import About from "./pages//about/About";
+import About from "./pages/about/About";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import ContactUs from "./pages/ContactUs";

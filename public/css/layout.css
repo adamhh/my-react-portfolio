@@ -13,6 +13,10 @@
 
 body { background: #04012e; }
 
+#slider-wrap {
+   max-width: 1500px;
+   margin: 0 auto;
+}
 /**
 
 CONTACT NEW STYLES
