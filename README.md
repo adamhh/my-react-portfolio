@@ -17,8 +17,7 @@ My portfolio is deployed via heroku and can be seen <a href="https://www.adamhh.
 * CSS
 
 ## **Visuals**
-![screencapture]
-https://user-images.githubusercontent.com/47022779/143787300-34e343f5-5789-442a-b9b4-e1d9020144ac.mp4
+![giphy](https://user-images.githubusercontent.com/47022779/143787624-46461820-78a6-49b2-a439-39535f4930e4.gif)
 
 
 
