@@ -49,7 +49,7 @@ export default function Portfolio() {
                 name={"HackerPatrol"}
                 description={"PHP Web App"}
                 isGithubLink={false}
-                link={"https://uw445team4.herokuapp.com/profiles.php"}
+                link={"https://uw445team4.herokuapp.com/"}
                 imagePath={Hacker}
               />
               <GridItem
