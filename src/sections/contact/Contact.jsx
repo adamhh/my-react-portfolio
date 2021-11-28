@@ -4,28 +4,29 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Axios from 'axios';
 
-class ContactUs extends Component {
-    constructor(props) {
-        super(props);
-        Axios.get('https://react-portfolio-adamhh-backend.herokuapp.com/api/')
-            .then(r => {
-                if (r.data.success) {
-                    console.log("API awake");
-                } else {
-                    console.log("API not awake");
-                }
-            })
-        this.state = {
-            name: '',
-            email: '',
-            message: '',
-            disabled: false,
-            emailSent: null,
-        }
+const { API_ENDPOINT } = process.env;
+
+function ContactUs(props) {
+
+    Axios.get(API_ENDPOINT)
+        .then(r => {
+            if (r.data.success) {
+                console.log("API awake");
+            } else {
+                console.log("API not awake");
+            }
+        })
+    this.state = {
+        name: '',
+        email: '',
+        message: '',
+        disabled: false,
+        emailSent: null,
     }
 
 
-    handleChange = (event) => {
+
+    const handleChange = (event) => {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
@@ -35,7 +36,7 @@ class ContactUs extends Component {
         })
     }
 
-    checkConditions() {
+    const checkConditions = () => {
         let boo = true;
         if (this.state.name === "") {
             boo = false;
@@ -48,13 +49,14 @@ class ContactUs extends Component {
         }
         return boo;
     }
-    handleSubmit = (event) => {
+
+    const handleSubmit = (event) => {
         event.preventDefault();
         if (this.checkConditions()) {
             this.setState({
                 disabled: true
             });
-            Axios.post('https://react-portfolio-adamhh-backend.herokuapp.com/api/email', this.state)
+            Axios.post(API_ENDPOINT + '/email', this.state)
                 .then(res => {
                     if(res.data.success) {
                         this.setState({
@@ -78,7 +80,7 @@ class ContactUs extends Component {
 
         }
     }
-  render() {
+    
     return (
         <section id="contact">
               <div className="contact-wrap">
@@ -107,6 +109,5 @@ class ContactUs extends Component {
               </div>
         </section>
     );
-  }
 }
 export default ContactUs;
