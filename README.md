@@ -13,12 +13,13 @@ My portfolio is deployed via heroku and can be seen <a href="https://www.adamhh.
 
 ## **Technologies**
 * React
-* Node.js
 * Javascript
 * CSS
 
 ## **Visuals**
-![screenshot](public/images/portfolio/screenshot.PNG)
+![screencapture]
+https://user-images.githubusercontent.com/47022779/143787300-34e343f5-5789-442a-b9b4-e1d9020144ac.mp4
+
 
 
 ## **License**
