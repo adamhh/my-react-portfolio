@@ -1,0 +1,162 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    background: #1A191A;
+    min-height: 660px;
+}
+
+.blurb {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: 0.5s fadeup;
+    animation-fill-mode: forwards;
+    padding-bottom: 40px;
+}
+
+.blurb p {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+
+}
+
+.about-button {
+    animation: 0.5s fadeup;
+    animation-fill-mode: forwards;
+    margin-top: 50px;
+    border-radius: 0.25rem;
+    background: linear-gradient(to right, red,orange, purple,blue);
+    padding: 2px;
+    transition: background-color .15s ease-in;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-button > div {
+    background-color: #1A191A;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.about-button:hover {
+    background: white;
+
+}
+
+.about-button a {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.about-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    animation: 0.5s fadeup;
+    animation-fill-mode: forwards;
+    color: white;
+    font-size: 38px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 42px;
+    border-bottom: 1px solid grey;
+}
+.about-stack {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.one-third-desktop {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.one-third-desktop div {
+    width: max-content;
+}
+
+.one-third-desktop p {
+    color: white;
+    
+}
+
+.outside {
+    animation: 1s outsidein;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.inside {
+    animation: 1s insidein;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@media (max-width: 799px) {
+    .about-header {
+        font-size: 30px;
+    }
+    .blurb {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .one-third-desktop {
+        text-align: center;
+    }
+    
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0.2;
+        margin-top: 50px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 30px;
+    }
+}
+
+@keyframes outsidein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes insidein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 1
+    }
+}

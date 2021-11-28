@@ -1,0 +1,198 @@
+
+.intro-flex-wrap {
+
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    display: relative;
+    z-index: 2;
+    min-width: 100%;
+}
+
+#intro h5, h1 {
+    color: white;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+#intro h5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.intro-background {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    animation-name: fadein;
+    animation-duration: 5s;
+}
+
+.about {
+    margin-top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: 0.5s fadeup;
+    animation-fill-mode: forwards;
+}
+
+.about p {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+}
+
+@media (min-width: 800px) {
+    section#intro {
+        min-height: 700px;
+    }
+    
+    .background {
+        max-width: 450px;
+        margin-top: 170px;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+
+    #intro h1 {
+        font-size: 48px;
+    }
+
+    .h1-1 {
+        animation: 3s slideright;
+        animation-fill-mode: forwards;
+        width: 500px;
+        text-align: center;
+    }
+    
+    .h1-2 {
+        animation: 3s slideleft;
+        animation-fill-mode: forwards;
+        width: 500px;
+        text-align: right;
+        /* text-align: left; */
+    }
+}
+
+@media (max-width: 799px) {
+
+    section#intro {
+        min-height: 650px;
+    }
+
+    .background {
+        max-width: 450px;
+        margin-top: 145px;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+
+    #intro h1 {
+        font-size: 34px;
+        margin-bottom: 0;
+    }
+
+    .h1-1 {
+        animation: 3s fadein;
+        animation-fill-mode: forwards;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .h1-2 {
+        animation: 3s fadein;
+        animation-fill-mode: forwards;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* social links */
+.social {
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+ }
+.social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+ }
+.social li a { color: #fff; }
+.social li a:hover { color: #FFFF00; }
+ 
+ /* scrolldown link */
+.scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #FFFF00;
+    border-radius: 100%;
+ 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+ }
+ .scrolldown a:hover { color: #FFFFFF; }
+
+
+ @keyframes slideright {
+    from {
+        width: 500px;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes slideleft{
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: calc(50% + 145px);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeup {
+    from {
+        opacity: 0.2;
+        margin-top: 600px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 580px;
+    }
+}

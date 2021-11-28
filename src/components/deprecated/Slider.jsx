@@ -40,8 +40,9 @@ function ImageSlider() {
                 <div className="card-wrapper">
                     <div className="card">
                         <div className="card-image">
-                            <a href={"https://www.bellaprivata.com"} rel={"noopener noreferrer"} target={"_blank"}></a>
+                            <a href={"https://www.bellaprivata.com"} rel={"noopener noreferrer"} target={"_blank"}>
                             <img src="images/bellaSS.jpg" alt={"Screenshot - Website"}/>
+                            </a>
                         </div>
                         <div className="details">
                             <h2>Bella Privata:<span className="description">Business Website</span></h2>
@@ -56,8 +57,6 @@ function ImageSlider() {
                         <ul className="social-icons">
                             <li><a href="https://github.com/adamhh/DarkDespairGame/" target={"_blank"} rel={"noopener noreferrer"}>
                                 <i className="fa fa-github-square"/></a></li>
-                            <li><a href="https://adamhh.github.io/DarkDespairGame/" target={"_blank"} rel={"noopener noreferrer"}>
-                                <i className="fa fa-external-link-square"/></a></li>
                         </ul>
                         <div className="details">
                             <h2>Dark Despair:<span className="description">HTML5/JS Web Game</span></h2>

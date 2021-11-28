@@ -1,0 +1,57 @@
+#banner {
+    background-color: rgb(21,20,21);
+}
+
+.banner-flex-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-flex-wrap .left {
+    
+}
+
+.banner-flex-wrap .left p {
+    color: white;
+    font-size: 34px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: -0.08em;
+    font-weight: 700;
+}
+
+.banner-flex-wrap .right {
+    display: flex;
+}
+
+.banner-flex-wrap .right a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-right: 40px;
+}
+
+
+.lightbox {
+    position:absolute;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    max-width: 100%;
+    height: 200px;
+    border: 2px solid white;
+    background: linear-gradient(to left, rgb(53, 53, 53), rgb(82, 82, 82));
+}

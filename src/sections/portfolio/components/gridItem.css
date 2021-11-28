@@ -1,0 +1,176 @@
+.gridItem {
+    height: 450px;
+    background: white;
+    width: 30%;
+    position: relative;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.gridItem:active, .gridItem:hover, .gridItem:focus {
+    outline: none;
+    border: none;
+ }
+
+.item-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+ }
+
+.item-image img {
+    opacity: .8;
+    -webkit-transition: .5s;
+    transition: .5s;
+ }
+
+
+
+ .gridItem:hover .item-image {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all .9s;
+    transition: all .9s;
+ }
+
+ .gridItem:hover .item-image img {
+   opacity: 1;
+}
+
+ .social-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+ }
+ 
+ .social-icons li {
+    list-style: none;
+ }
+ 
+ .social-icons li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    font-size: 23px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 6px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+    opacity: 0;
+ }
+ 
+ .item:hover .social-icons li a {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+ }
+ 
+ .social-icons li a:hover {
+    background: #000;
+    -webkit-transition: .2s;
+    transition: .2s;
+ }
+ 
+ .social-icons li a:hover .fa {
+    color: #FFFF00;
+ }
+ 
+ .social-icons li a .fa {
+    -webkit-transition: .8s;
+    transition: .8s;
+ }
+ 
+ .social-icons li a .fa:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    color: #FFFF00;
+ }
+
+ .item:hover li:nth-child(1) a {
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+ }
+ 
+ .item:hover li:nth-child(2) a {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+ }
+ 
+ .item:hover li:nth-child(3) a {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+ }
+ 
+ .item:hover li:nth-child(4) a {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+ }
+
+ .details {
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 120px;
+    z-index: 1;
+    padding: 10px;
+    -webkit-transition: .6s;
+    transition: .6s;
+ }
+ 
+ .details h2 {
+    font-size: 20px;
+    margin: 30px 0;
+    padding-right: 5px;
+    text-align: center;
+    color: #1f2024 !important;
+ }
+ 
+ .details h2 .description {
+    font-size: 20px;
+    color:#6E7881 !important;
+    line-height: 2;
+    padding-left: 10px;
+    color: #333;
+    font-weight: 300;
+    display: block;
+ }
+ .item:hover .details {
+    bottom: 0;
+ }
+
+ @media (max-width: 799px) {
+   .gridItem {
+      width: 95%;
+      height: 250px;
+   }
+ }
+
