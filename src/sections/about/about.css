@@ -1,3 +1,6 @@
+
+body { background: #1A191A; }
+
 #about {
     display: flex;
     flex-direction: column;
