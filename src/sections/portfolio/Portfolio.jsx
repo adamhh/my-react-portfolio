@@ -46,13 +46,6 @@ export default function Portfolio() {
                 imagePath={ComChat}
               />
               <GridItem
-                name={"HackerPatrol"}
-                description={"PHP Web App"}
-                isGithubLink={false}
-                link={"https://uw445team4.herokuapp.com/"}
-                imagePath={Hacker}
-              />
-              <GridItem
                 name={"Bella Privata"}
                 description={"React Website"}
                 isGithubLink={false}
