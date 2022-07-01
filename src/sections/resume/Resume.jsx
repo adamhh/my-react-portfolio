@@ -42,8 +42,9 @@ export default function Resume() {
                         <p>Work</p>
                     </div>
                     <div className="content desktop">
-                        <p>Software Engineer at Sparetoolz <i> May 21 - Current</i></p>
-                        <p>Full Stack Developer at Tako <i> March 21 - Current</i></p>
+                        <p>Software Engineer at NBC <i> Mar 22 - Current</i></p>
+                        <p>Software Engineer at Sparetoolz <i> May 21 - Feb 22</i></p>
+                        <p>Full Stack Developer at Tako <i> Mar 21 - Feb 22</i></p>
                         <p>Hobbyist/student programmer <i> Jan 17 - Current</i></p>
                     </div>
                     <div className="content mobile">
